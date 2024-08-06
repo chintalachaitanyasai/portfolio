@@ -1,0 +1,58 @@
+html, body {
+    height: 100%; /* Ensure that html and body take up the full height */
+    margin: 0;
+    padding: 0;
+   
+    background-image: url('https://st3.depositphotos.com/10953330/19110/i/450/depositphotos_191106130-stock-photo-abstract-texture-blue-white-color.jpg'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: 1; /* Prevent repeating the image */
+    color: #030303; /* Set default text color to white */
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 10px 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5); /* Add background color to nav for better readability */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff; /* Set text color to white */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #090909; /* Slightly darker background on hover */
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(248, 248, 248, 0.6); /* Slightly transparent background for sections */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(2, 2, 2, 0.8); /* Semi-transparent background to allow image visibility */
+    color: #fff; /* Set text color to white */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
